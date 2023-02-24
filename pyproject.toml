@@ -35,13 +35,6 @@ line-length = 120
 target-version = ['py37']
 preview = true
 
-[tool.deptry]
-extend_exclude = ["my_project/subdir"]
-ignore_missing = ["my_project/subdir"]
-ignore_obsolete = ["my_project/subdir"]
-ignore_transitive = ["my_project/subdir"]
-ignore_misplaced_dev = ["my_project/subdir"]
-
 [tool.mypy]
 files = ["my_project"]
 disallow_untyped_defs = "True"
